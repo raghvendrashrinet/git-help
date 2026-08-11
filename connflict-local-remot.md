@@ -1,4 +1,5 @@
-Yes, this creates a conflict (or rather, a divergence) because Git sees two different histories: one on GitHub (where you edited the file) and one on your Local machine (where you did new work).  Git refuses to overwrite the GitHub changes with your local push to prevent data loss. 
+## Git Remote and Local repo both got edited 
+this creates a conflict (or rather, a divergence) because Git sees two different histories: one on GitHub (where you edited the file) and one on your Local machine (where you did new work).  Git refuses to overwrite the GitHub changes with your local push to prevent data loss. 
 
 Here is the step-by-step solution to merge them safely without losing any work:  
 
